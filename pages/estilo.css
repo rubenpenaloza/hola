@@ -1,0 +1,114 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{ display: flex; flex-direction: row;
+    background-color: rgb(237, 192, 250);
+}
+.titulo{
+    flex-direction: row;
+}
+.logo{ flex-direction: row;
+    width: 150px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+body{
+    background-color: rgb(250, 255, 182);
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    padding: 1rem;
+}
+.menu{
+    list-style-type: none;
+    margin: 10px;
+    background-color: rgb(237, 192, 250);
+    border-radius: 0%;
+}
+.menu li{
+    text-align: center;
+    margin:10px;
+    background-color: rgba(128, 7, 81, 0.589);
+    padding: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    color:rgb(255, 255, 255)
+    
+}
+.menu li:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+.menu li a:hover{
+    color:white;
+}
+.categoria{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.categoria :hover{
+    background-color: rgb(237, 192, 250);
+}
+footer{
+    background-color: rgb(45, 11, 46);
+}
+.form{
+    background-color: rgb(196, 196, 196);
+    align-items: right;
+}
+.formulario{
+    text-align: center;
+    align-items: center;
+}
+.caja{
+    text-align: center;
+}
+.footer{
+    list-style-type: none;
+    margin: 50px;
+    text-align: center;
+    color: white;   
+}
+.footer li {
+    display: inline-block;
+    margin:10px;
+    background-color: rgba(129, 25, 89, 0.589);
+    padding: 10px;
+}
+.footer li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    color:rgb(255, 255, 255)
+}
+.footer li:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+.footer li a:hover{
+    color:white;
+}
+body{
+    flex-direction: row;
+}
